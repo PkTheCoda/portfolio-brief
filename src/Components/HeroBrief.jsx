@@ -8,10 +8,10 @@ const HeroBrief = () => {
         This is a <i>brief</i> version of my portfolio, find everything about me on <a href="https://pranavkonjeti.com" className='underline bg-[#9b653e] px-1 py-px rounded-md' target='_blank'>my main portfolio</a>.
       </div>
 
-      <div className='flex flex-col gap-y-6 max-w-[35rem]'>
+      <div className='flex flex-col gap-y-6 max-w-[40rem] text-lg'>
 
         <div className='flex flex-col gap-y-1'>
-          <h1 className='three-title font-medium'>
+          <h1 className='four-title font-medium'>
             Hey 👋, I'm Pranav
           </h1>
           <p className=''>
@@ -20,7 +20,7 @@ const HeroBrief = () => {
         </div>
 
         <div className='flex flex-col gap-y-1'>
-          <h1 className='three-title font-medium'>
+          <h1 className='four-title font-medium'>
             What I've done/do:
           </h1>
 
@@ -45,7 +45,7 @@ const HeroBrief = () => {
             </div>
             <div className="space-y-2">
               <h4>
-                Indie Hacking & Building Cool Sh*t online
+                Indie Hacking & Building Cool Stuff online
               </h4>
               <ul className="list-disc pl-10">
                 <li>Built <a href="https://desource.app" className='underline font-semibold bg-[#ebcfa8] px-1 py-px rounded-md' target='_blank'>desource</a>, a directory of free web-development resources</li>
@@ -65,7 +65,7 @@ const HeroBrief = () => {
         </div>
 
         <div className='flex flex-col gap-y-1'>
-          <h1 className='three-title font-medium'>
+          <h1 className='four-title font-medium'>
             Fun facts:
           </h1>
 
