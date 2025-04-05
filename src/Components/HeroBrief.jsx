@@ -96,7 +96,7 @@ const HeroBrief = () => {
             hmu
           </h1>
 
-          <div className='flex gap-x-2 text-center'>
+          <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-center'>
             <a href="https://www.linkedin.com/in/pranav-konjeti/" className='flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md' target='_blank'>LinkedIn</a>
             <a href="mailto:pranavkonjeti@gmail.com" className='flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md' target='_blank'>Email</a>
             <a href="https://github.com/PkTheCoda" className='flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md' target='_blank'>GitHub</a>
