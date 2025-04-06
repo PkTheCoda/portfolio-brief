@@ -22,13 +22,15 @@ const HeroBrief = () => {
           <p className="">
             I'm a 17-year-old developer and designer from Virginia. I like
             building impactful software + running my web development agency on
-            the side! I'll be studying {" "}
+            the side!
+            
+            I'll be studying {" "}
             <a
               href="https://ece.illinois.edu/admissions/why-ece/rankings-and-statistics"
               target="_blank"
               className="font-medium bg-[#ebcfa8] px-1 py-px rounded-md"
             >
-              Computer Engineering @ UIUC
+              Computer Engineering at UIUC
             </a>{" "}
             starting this fall!
           </p>
@@ -114,17 +116,13 @@ const HeroBrief = () => {
                   >
                     AI-language learning app
                   </a>,
-                  and some other <a href="https://www.pranavkonjeti.com/#work" target="_blank">random side projects</a>
-                </li>
-                <li>
-                  Currently working on EasyAP, an EdTech app that simplifies AP
-                  Exam prep{" "}
+                  and a website that simplifies {' '}
                   <a
                     href="https://www.linkedin.com/posts/pranav-konjeti_easyaps-ai-can-now-grade-your-frq-response-activity-7220802778858696704-3VPA?utm_source=share&utm_medium=member_desktop"
                     target="_blank"
                     className="font-semibold underline bg-[#ebcfa8] px-1 py-px rounded-md"
                   >
-                    (demo)
+                    AP exam prep
                   </a>
                 </li>
               </ul>
@@ -139,14 +137,14 @@ const HeroBrief = () => {
             <div className="space-y-2">
               <ul className="list-disc pl-10 space-y-2">
                 <li>
-                  I've tutored over 500 students on the nonprofit site schoolhouse.world
+                  I've tutored over 500 students on the nonprofit site <a href="https://schoolhouse.world" className="highlight" target="_blank">schoolhouse.world</a>
                 </li>
                 <li>
                   I love getting active: going to the gym, playing pickleball
                   with friends, beach volleyball, etc.
                 </li>
                 <li>
-                  I was born in India, but moved to the States during my childhood!
+                  I was born in India, but moved to the States when I was pretty young!
                 </li>
               </ul>
             </div>
@@ -155,7 +153,6 @@ const HeroBrief = () => {
 
         <div className="flex flex-col gap-y-1">
           <h1 className="three-title font-medium">Interests</h1>
-
           <p>Tech, Startups, Education, AI, Web Design</p>
         </div>
 
