@@ -59,4 +59,8 @@
   .transition300scale {
     @apply transition transform duration-300 hover:scale-[1.03]
   }
+
+  .highlight {
+    @apply underline font-semibold bg-[#ebcfa8] px-1 py-px rounded-md
+  }
 }
