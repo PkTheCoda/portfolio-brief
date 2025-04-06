@@ -32,7 +32,7 @@ const HeroBrief = () => {
             >
               Computer Engineering
             </a>{" "}
-            this fall!
+            this upcoming fall!
           </p>
         </div>
 
