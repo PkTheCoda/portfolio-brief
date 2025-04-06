@@ -24,15 +24,15 @@ const HeroBrief = () => {
             building impactful software + running my web development agency on
             the side!
             
-            I'll be studying {" "}
+            I'll be going to UIUC where I plan on studying {" "}
             <a
               href="https://ece.illinois.edu/"
               target="_blank"
               className="font-medium bg-[#ebcfa8] px-1 py-px rounded-md"
             >
-              Computer Engineering at UIUC
+              Computer Engineering
             </a>{" "}
-            starting this fall!
+            this fall!
           </p>
         </div>
 
