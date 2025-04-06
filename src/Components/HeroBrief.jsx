@@ -4,7 +4,7 @@ const HeroBrief = () => {
   return (
     <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 py-20 text-[#794a29] font-outfit flex items-center justify-center">
       <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center">
-        This is a <i>brief</i> version of my portfolio, find everything about me
+        This is a <i>brief</i> version of my portfolio, find more about my work
         on{" "}
         <a
           href="https://pranavkonjeti.com"
@@ -26,7 +26,7 @@ const HeroBrief = () => {
             
             I'll be studying {" "}
             <a
-              href="https://ece.illinois.edu/admissions/why-ece/rankings-and-statistics"
+              href="https://ece.illinois.edu/"
               target="_blank"
               className="font-medium bg-[#ebcfa8] px-1 py-px rounded-md"
             >
