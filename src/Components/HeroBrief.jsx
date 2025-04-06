@@ -21,10 +21,9 @@ const HeroBrief = () => {
           <h1 className="four-title font-medium">Hey 👋, I'm Pranav</h1>
           <p className="">
             I'm a 17-year-old developer and designer from Virginia. I like
-            building impactful software + running my web development agency on
-            the side!
+            building impactful software that helps people, mainly students.
             
-            I'll be going to UIUC where I plan on studying {" "}
+            This upcoming fall, I'll be going to UIUC where I plan on studying {" "}
             <a
               href="https://ece.illinois.edu/"
               target="_blank"
@@ -32,7 +31,6 @@ const HeroBrief = () => {
             >
               Computer Engineering
             </a>{" "}
-            this upcoming fall!
           </p>
         </div>
 
