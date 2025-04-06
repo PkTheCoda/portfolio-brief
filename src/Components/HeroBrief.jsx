@@ -80,7 +80,7 @@ const HeroBrief = () => {
                   world.
                 </li>
                 <li>
-                  Generated low 5-figure revenue (20k-40k to be vague) within a
+                  Generated low 5-figure revenue within a
                   year (10hr/week)
                 </li>
               </ul>
