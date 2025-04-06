@@ -153,7 +153,7 @@ const HeroBrief = () => {
 
         <div className="flex flex-col gap-y-1">
           <h1 className="three-title font-medium">Interests</h1>
-          <p>Tech, Startups, Education, AI, Web Design</p>
+          <p>Tech, Startups, Education, AI, Web Design, Sleeping in</p>
         </div>
 
         <div className="flex flex-col gap-y-1">
