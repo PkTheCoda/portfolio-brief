@@ -1,8 +1,9 @@
 import React from "react";
+import { BsGithub } from "react-icons/bs";
 
 const HeroBrief = () => {
   return (
-    <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 py-20 text-[#794a29] font-outfit flex items-center justify-center">
+    <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 pt-20 text-[#794a29] font-outfit flex items-center justify-center">
       <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center">
         This is a <i>brief</i> version of my portfolio, find more about my work
         on{" "}
@@ -154,8 +155,7 @@ const HeroBrief = () => {
           <p>Tech, Startups, Education, AI, Web Design, Sleeping in</p>
         </div>
 
-        <div className="flex flex-col gap-y-1">
-          <h1 className="three-title font-medium">hmu</h1>
+        <div className="flex flex-col items-center justify-center gap-y-4 bg-[#794a29] shadow-md p-4 pt-8 rounded-t-xl">
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <a
@@ -187,8 +187,13 @@ const HeroBrief = () => {
               Buy a Coffee :)
             </a>
           </div>
+          <p className="text-base text-center max-w-[30rem] text-white">
+            P.S. I am looking for a summer internship; if you run a company/business, I'd love to connect!
+          </p>
+
         </div>
       </div>
+      
     </div>
   );
 };
