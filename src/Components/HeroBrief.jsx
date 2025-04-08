@@ -187,9 +187,6 @@ const HeroBrief = () => {
               Buy a Coffee :)
             </a>
           </div>
-          <p className="text-base text-center max-w-[30rem] text-white">
-            P.S. I am looking for a summer internship; if you run a company/business, I'd love to connect!
-          </p>
 
         </div>
       </div>
