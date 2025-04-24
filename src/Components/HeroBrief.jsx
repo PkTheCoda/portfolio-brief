@@ -71,7 +71,7 @@ const HeroBrief = () => {
                 >
                   ThryveDesign
                 </a>
-                , my web development agency
+                , where I build websites for companies
               </h4>
               <ul className="list-disc pl-10">
                 <li>
