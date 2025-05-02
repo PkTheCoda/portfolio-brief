@@ -130,20 +130,17 @@ const HeroBrief = () => {
         </div>
 
         <div className="flex flex-col gap-y-1">
-          <h1 className="four-title font-medium">Fun (?) facts:</h1>
+          <h1 className="four-title font-medium">Achievements:</h1>
 
           <div className="space-y-4">
             <div className="space-y-2">
               <ul className="list-disc pl-10 space-y-2">
                 <li>
-                  I've tutored over 500 students on the nonprofit site <a href="https://schoolhouse.world" className="highlight" target="_blank">schoolhouse.world</a>
+                I was selected as a 2025 Taco Bell Live Más Scholar out of 15,000 applicants (4% acceptance rate), 
+                receiving a five-figure scholarship plus networking and career development opportunities.
                 </li>
                 <li>
-                  I love getting active: going to the gym, playing pickleball
-                  with friends, beach volleyball, etc.
-                </li>
-                <li>
-                  I was born in India, but moved to the States when I was pretty young!
+                  I placed 5th on the national level @ FBLA's website coding and development level.
                 </li>
               </ul>
             </div>
