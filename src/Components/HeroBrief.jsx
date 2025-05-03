@@ -140,7 +140,7 @@ const HeroBrief = () => {
                 receiving a five-figure scholarship plus networking and career development opportunities.
                 </li>
                 <li>
-                  I placed 5th on the national level @ FBLA's website coding and development level.
+                  I placed 5th on the national level @ FBLA's website coding and development event. Orlando, 2024
                 </li>
               </ul>
             </div>
