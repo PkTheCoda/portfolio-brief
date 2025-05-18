@@ -22,9 +22,8 @@ const HeroBrief = () => {
           <h1 className="four-title font-medium">Hey 👋, I'm Pranav</h1>
           <p className="">
             I'm a 17-year-old developer and designer from Virginia. I like
-            building impactful software that helps people, mainly students.
-            
-            This upcoming fall, I'll be going to UIUC where I plan on studying {" "}
+            building impactful software that helps people, mainly students. This
+            upcoming fall, I'll be going to UIUC where I plan on studying{" "}
             <a
               href="https://ece.illinois.edu/"
               target="_blank"
@@ -56,7 +55,7 @@ const HeroBrief = () => {
                   1.2M page views, 200k unique users, 400~ daily users to date.
                 </li>
                 <li>
-                  Raised mid 4-figures in grants to further continue the
+                  Raised multiple 4-figure grants to further continue the
                   platform's mission
                 </li>
               </ul>
@@ -79,8 +78,21 @@ const HeroBrief = () => {
                   world.
                 </li>
                 <li>
-                  Generated low 5-figure revenue within a
-                  year (10hr/week)
+                  Generated low 5-figure revenue within a year (10hr/week)
+                </li>
+                <li>
+                  Here are some of my{" "}
+                  <a
+                    href="https://thryvedesign.com/showcase"
+                    target="_blank"
+                    className="highlight"
+                  >
+                    work + sample designs.
+                  </a>
+                  <br />
+                  <ul className="list-disc pl-4 mt-1">
+                    <li>I normally charge around <b>$1000</b> for a full design + functional website</li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -114,8 +126,8 @@ const HeroBrief = () => {
                     className="highlight"
                   >
                     AI-language learning app
-                  </a>,
-                  and a website that simplifies {' '}
+                  </a>
+                  , and a website that simplifies{" "}
                   <a
                     href="https://www.linkedin.com/posts/pranav-konjeti_easyaps-ai-can-now-grade-your-frq-response-activity-7220802778858696704-3VPA?utm_source=share&utm_medium=member_desktop"
                     target="_blank"
@@ -130,17 +142,27 @@ const HeroBrief = () => {
         </div>
 
         <div className="flex flex-col gap-y-1">
-          <h1 className="four-title font-medium">Achievements:</h1>
+          <h1 className="four-title font-medium">Miscellaneous:</h1>
 
           <div className="space-y-4">
             <div className="space-y-2">
               <ul className="list-disc pl-10 space-y-2">
                 <li>
-                I was selected as a 2025 Taco Bell Live Más Scholar out of 15,000 applicants (4% acceptance rate), 
-                receiving a five-figure scholarship plus networking and career development opportunities.
+                  I was selected as a 2025 Taco Bell Live Más Scholar out of
+                  15,000 applicants (4% acceptance rate) for my work in EdTech,
+                  receiving a five-figure scholarship plus networking and career
+                  development opportunities.
                 </li>
                 <li>
-                  I placed 5th on the national level @ FBLA's website coding and development event. Orlando, 2024
+                  I've tutored over 500 students and garnered 2000+ positive
+                  ratings on the nonprofit Schoolhouse.{" "}
+                  <a
+                    href="https://schoolhouse.world/u/pranav"
+                    target="_blank"
+                    className="highlight"
+                  >
+                    My Portfolio
+                  </a>
                 </li>
               </ul>
             </div>
@@ -149,45 +171,42 @@ const HeroBrief = () => {
 
         <div className="flex flex-col gap-y-1">
           <h1 className="three-title font-medium">Interests</h1>
-          <p>Tech, Startups, Education, AI, Web Design, Sleeping in</p>
+          <p>Tech, Startups, Education, AI, UI/UX Design</p>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-y-4 bg-[#794a29] shadow-md p-4 pt-8 rounded-t-xl">
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div className="flex flex-col items-center justify-center gap-y-4 bg-[#794a29] shadow-md px-4 py-8 rounded-t-xl">
+          <div className="grid grid-cols-4 gap-4 text-center">
             <a
               href="https://www.linkedin.com/in/pranav-konjeti/"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md"
+              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
               target="_blank"
             >
               LinkedIn
             </a>
             <a
               href="mailto:pranavkonjeti@gmail.com"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md"
+              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
               target="_blank"
             >
               Email
             </a>
             <a
               href="https://github.com/PkTheCoda"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md"
+              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
               target="_blank"
             >
               GitHub
             </a>
             <a
-              href="https://buymeacoffee.com/pranavkonjeti"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-2 py-px rounded-md"
+              href="https://github.com/PkTheCoda"
+              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
               target="_blank"
             >
-              Buy a Coffee :)
+              Book a Call
             </a>
           </div>
-
         </div>
       </div>
-      
     </div>
   );
 };
