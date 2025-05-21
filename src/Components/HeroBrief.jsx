@@ -89,10 +89,10 @@ const HeroBrief = () => {
                   >
                     work + sample designs.
                   </a>
-                  <br />
+                  {/* <br />
                   <ul className="list-disc pl-4 mt-1">
                     <li>I normally charge around <b>$1000</b> for a full design + functional website</li>
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
             </div>
