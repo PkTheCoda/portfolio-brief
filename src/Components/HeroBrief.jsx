@@ -201,7 +201,7 @@ const HeroBrief = () => {
               GitHub
             </a>
             <a
-              href="https://github.com/PkTheCoda"
+              href="https://cal.com/pranavkonjeti/15min"
               className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
               target="_blank"
             >
