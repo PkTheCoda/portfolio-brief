@@ -142,7 +142,7 @@ const HeroBrief = () => {
         </div>
 
         <div className="flex flex-col gap-y-1">
-          <h1 className="four-title font-medium">Random:</h1>
+          <h1 className="four-title font-medium">Miscellaneous:</h1>
 
           <div className="space-y-4">
             <div className="space-y-2">
