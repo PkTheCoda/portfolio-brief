@@ -175,7 +175,7 @@ const HeroBrief = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-y-4 bg-[#794a29] shadow-md px-4 py-8 rounded-t-xl">
-          <div className="grid grid-cols-4 gap-4 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <a
               href="https://www.linkedin.com/in/pranav-konjeti/"
               className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
