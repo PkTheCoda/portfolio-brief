@@ -142,7 +142,7 @@ const HeroBrief = () => {
         </div>
 
         <div className="flex flex-col gap-y-1">
-          <h1 className="four-title font-medium">Miscellaneous:</h1>
+          <h1 className="four-title font-medium">Random:</h1>
 
           <div className="space-y-4">
             <div className="space-y-2">
@@ -163,6 +163,9 @@ const HeroBrief = () => {
                   >
                     My Portfolio
                   </a>
+                </li>
+                <li>
+                  I love staying active: I played varsity volleyball for my school team, and love the occasional pickleball/tennis match!
                 </li>
               </ul>
             </div>
