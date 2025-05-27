@@ -25,11 +25,11 @@ const HeroBrief = () => {
             building impactful software that helps people, mainly students. This
             upcoming fall, I'll be going to UIUC where I plan on studying{" "}
             <a
-              href="https://ece.illinois.edu/"
+              href="https://siebelschool.illinois.edu/about/facts-and-rankings"
               target="_blank"
               className="font-medium bg-[#ebcfa8] px-1 py-px rounded-md"
             >
-              Computer Engineering
+              Computer Science
             </a>{" "}
           </p>
         </div>
