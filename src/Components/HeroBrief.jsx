@@ -165,7 +165,7 @@ const HeroBrief = () => {
                   </a>
                 </li>
                 <li>
-                  I love staying active: I played varsity volleyball for my school team, and love the occasional pickleball/tennis match!
+                  I love staying active: I played varsity volleyball for my school team, go to the gym, and love the occasional tennis/pickleball match
                 </li>
               </ul>
             </div>
