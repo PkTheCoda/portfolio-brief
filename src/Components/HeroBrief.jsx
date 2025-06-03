@@ -23,14 +23,15 @@ const HeroBrief = () => {
           <p className="">
             I'm a 17-year-old developer and designer from Virginia. I like
             building impactful software that helps people, mainly students. This
-            upcoming fall, I'll be going to UIUC where I plan on studying{" "}
+            upcoming fall, I'll be going to UIUC where I plan on studying Computer Science
+            {/* {" "}
             <a
               href="https://siebelschool.illinois.edu/about/facts-and-rankings"
               target="_blank"
               className="font-medium bg-[#ebcfa8] px-1 py-px rounded-md"
             >
               Computer Science
-            </a>{" "}
+            </a>{" "} */}
           </p>
         </div>
 
