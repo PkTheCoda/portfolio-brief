@@ -42,7 +42,7 @@ const HeroBrief = () => {
             <div className="space-y-2">
               <ul className="list-disc pl-10">
                 <li>
-                  Working as a paid intern at an EdTech startup this summer. I'm working on their 
+                  Currently working as a paid intern at an EdTech startup this summer. I'm working on 
                   building a better frontend for their platform & improving the UI.
                 </li>
               </ul>
