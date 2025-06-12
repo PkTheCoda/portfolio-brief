@@ -35,11 +35,17 @@ const HeroBrief = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-y-1">
+        <div className="flex flex-col gap-y-2">
           <h1 className="four-title font-medium">What I'm doing:</h1>
 
           <div className="space-y-4">
             <div className="space-y-2">
+              <ul className="list-disc pl-10">
+                <li>
+                  Working as a paid intern at an EdTech startup this summer. I'm working on their 
+                  building a better frontend for their platform & improving the UI.
+                </li>
+              </ul>
               <h4>
                 Building{" "}
                 <a
