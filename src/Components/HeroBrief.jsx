@@ -39,13 +39,29 @@ const HeroBrief = () => {
           <h1 className="four-title font-medium">What I'm doing:</h1>
 
           <div className="space-y-4">
+
             <div className="space-y-2">
+              <h4>
+                Working as a paid Software Engineering Intern @ {" "}
+                <a
+                  href="https://www.ycombinator.com/companies/ultra-2"
+                  className="highlight"
+                  target="_blank"
+                >
+                  Ultra
+                </a>
+              </h4>
               <ul className="list-disc pl-10">
                 <li>
-                  Currently working as a paid intern at an EdTech startup this summer. I'm working on 
-                  building a better frontend for their platform & improving the UI.
+                  Ultra is a Y-Combinator backed startup helping students globally achieve their dreams with AI.
+                </li>
+                <li>
+                  I'm helping build and design new and existing features for the platform.
                 </li>
               </ul>
+            </div>
+
+            <div className="space-y-2">
               <h4>
                 Building{" "}
                 <a
@@ -77,7 +93,7 @@ const HeroBrief = () => {
                 >
                   ThryveDesign
                 </a>
-                , where I build websites for companies
+                , my web develompent agency.
               </h4>
               <ul className="list-disc pl-10">
                 <li>
@@ -88,7 +104,7 @@ const HeroBrief = () => {
                   Generated low 5-figure revenue within a year (10hr/week)
                 </li>
                 <li>
-                  Here are some of my{" "}
+                  Here is some of my{" "}
                   <a
                     href="https://thryvedesign.com/showcase"
                     target="_blank"
@@ -103,8 +119,16 @@ const HeroBrief = () => {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-y-1">
+          <h1 className="four-title font-medium">Miscellaneous:</h1>
+
+          <div className="space-y-4">
+            <div className="space-y-4">
             <div className="space-y-2">
-              <h4>Indie Hacking & Building Cool Stuff online</h4>
+              <h4>I love Indie Hacking & Building <span className="line-through">cool</span> dumb stuff online</h4>
               <ul className="list-disc pl-10 space-y-2">
                 <li>
                   I built{" "}
@@ -145,22 +169,14 @@ const HeroBrief = () => {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-y-1">
-          <h1 className="four-title font-medium">Miscellaneous:</h1>
-
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <ul className="list-disc pl-10 space-y-2">
+              <ul className="list-disc pl-2 space-y-4">
                 <li>
                   I was selected as a 2025 Taco Bell Live Más Scholar out of
                   15,000 applicants (4% acceptance rate) for my work in EdTech,
                   receiving a five-figure scholarship plus networking and career
                   development opportunities.
                 </li>
-                <li>
+                {/* <li>
                   I've tutored over 500 students and garnered 2000+ positive
                   ratings on the nonprofit Schoolhouse.{" "}
                   <a
@@ -170,7 +186,7 @@ const HeroBrief = () => {
                   >
                     My Portfolio
                   </a>
-                </li>
+                </li> */}
                 <li>
                   I love staying active: I played varsity volleyball for my school team, go to the gym, and love the occasional tennis/pickleball match
                 </li>
