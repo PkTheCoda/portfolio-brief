@@ -56,7 +56,7 @@ const HeroBrief = () => {
                   Ultra is a Y-Combinator backed startup helping students globally achieve their dreams with AI.
                 </li>
                 <li>
-                  I'm helping build and design new and existing features for the platform.
+                  I'm helping build out a better UI and shipping new features.
                 </li>
               </ul>
             </div>
