@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 const HeroBrief = () => {
   return (
     <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 pt-20 text-[#794a29] font-outfit flex items-center justify-center">
-      <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center">
+      <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center px-2">
         This is a <i>brief</i> version of my portfolio, find more about my work
         on{" "}
         <a
@@ -21,9 +21,9 @@ const HeroBrief = () => {
         <div className="flex flex-col gap-y-1">
           <h1 className="four-title font-medium">Hey 👋, I'm Pranav</h1>
           <p className="">
-            I'm a 17-year-old developer and designer from Virginia. I like
-            building impactful software that helps people, mainly students. This
-            upcoming fall, I'll be going to UIUC where I plan on studying Computer Science
+            I'm a 17-year-old developer and designer from Virginia. I like desiginig 
+            websites with beautiful UI and building impactful EdTech for students.
+            This upcoming fall, I'll be going to <b>UIUC</b> where I plan on studying <b>Computer Science</b>
             {/* {" "}
             <a
               href="https://siebelschool.illinois.edu/about/facts-and-rankings"
