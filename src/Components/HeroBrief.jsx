@@ -133,7 +133,7 @@ const HeroBrief = () => {
                 <li>
                   I built{" "}
                   <a
-                    href="https://desource.app"
+                    href="https://desourcedesign.vercel.app/"
                     className="highlight"
                     target="_blank"
                   >
