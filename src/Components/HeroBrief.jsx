@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 
 const HeroBrief = () => {
   return (
-    <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 pt-20 text-[#794a29] font-outfit flex items-center justify-center">
+    <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 pt-20 text-[#694023] font-outfit flex items-center justify-center">
       <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center px-2">
         This is a <i>brief</i> version of my portfolio, find more about my work
         on{" "}
@@ -21,17 +21,9 @@ const HeroBrief = () => {
         <div className="flex flex-col gap-y-1">
           <h1 className="four-title font-medium">Hey 👋, I'm Pranav</h1>
           <p className="">
-            I'm a 17-year-old developer and designer from Virginia. I like desiginig 
+            I'm a 17-year-old web developer and designer from Virginia. I like desiginig 
             websites with beautiful UI and building impactful EdTech for students.
-            This upcoming fall, I'll be going to <b>UIUC</b> where I plan on studying <b>Computer Science</b>
-            {/* {" "}
-            <a
-              href="https://siebelschool.illinois.edu/about/facts-and-rankings"
-              target="_blank"
-              className="font-medium bg-[#ebcfa8] px-1 py-px rounded-md"
-            >
-              Computer Science
-            </a>{" "} */}
+            This upcoming fall, I'll be studying <b className="font-semibold">Computer Science at UIUC.</b>
           </p>
         </div>
 
@@ -56,7 +48,7 @@ const HeroBrief = () => {
                   Ultra is a Y-Combinator backed startup helping students globally achieve their dreams with AI.
                 </li>
                 <li>
-                  I'm helping build out a better UI and shipping new features.
+                  I'm working on shipping, implementing, and refactoring different features for their platform.
                 </li>
               </ul>
             </div>
@@ -78,8 +70,7 @@ const HeroBrief = () => {
                   1.2M page views, 200k unique users, 400~ daily users to date.
                 </li>
                 <li>
-                  Raised multiple 4-figure grants to further continue the
-                  platform's mission
+                  Raised grants from organizations like Emergent Ventures to continue platform's mission.
                 </li>
               </ul>
             </div>
@@ -128,7 +119,7 @@ const HeroBrief = () => {
           <div className="space-y-4">
             <div className="space-y-4">
             <div className="space-y-2">
-              <h4>I love Indie Hacking & Building <span className="line-through">cool</span> dumb stuff online</h4>
+              <h4>I love Indie Hacking & Building useful (?) stuff online</h4>
               <ul className="list-disc pl-10 space-y-2">
                 <li>
                   I built{" "}
