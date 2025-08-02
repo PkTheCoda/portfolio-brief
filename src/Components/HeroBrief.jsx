@@ -70,7 +70,7 @@ const HeroBrief = () => {
                   1.2M page views, 200k unique users, 400~ daily users to date.
                 </li>
                 <li>
-                  Raised grants from organizations like Emergent Ventures to continue platform's mission.
+                  Raised grants from organizations like Emergent Ventures (31st cohort) to continue platform's mission.
                 </li>
               </ul>
             </div>
@@ -92,16 +92,16 @@ const HeroBrief = () => {
                   world.
                 </li>
                 <li>
-                  Generated low 5-figure revenue within a year (10hr/week)
+                  Generated low 5-figure revenue within a year
                 </li>
                 <li>
-                  Here is some of my{" "}
+                  Here is some of my agency's{" "}
                   <a
                     href="https://thryvedesign.com/showcase"
                     target="_blank"
                     className="highlight"
                   >
-                    work + sample designs.
+                    work and sample designs.
                   </a>
                   {/* <br />
                   <ul className="list-disc pl-4 mt-1">
