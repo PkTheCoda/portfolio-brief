@@ -23,7 +23,7 @@ const HeroBrief = () => {
           <p className="">
             I'm a 17-year-old web developer and designer from Virginia. I like desiginig 
             websites with beautiful UI and building impactful EdTech for students.
-            This upcoming fall, I'll be studying <b className="font-semibold">Computer Science at UIUC.</b>
+            I'm currently starting my freshman year at UIUC studying <span className="font-semibold">Computer Science.</span>
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const HeroBrief = () => {
               </h4>
               <ul className="list-disc pl-10">
                 <li>
-                  Ultra is a Y-Combinator backed startup helping students globally achieve their dreams with AI.
+                  Ultra is a Y-Combinator backed startup serving as the ultimate career coach for high-achieving high school students.
                 </li>
                 <li>
                   I'm working on shipping, implementing, and refactoring different features for their platform.
