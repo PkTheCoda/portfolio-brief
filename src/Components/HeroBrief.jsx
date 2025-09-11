@@ -21,7 +21,7 @@ const HeroBrief = () => {
         <div className="flex flex-col gap-y-1">
           <h1 className="four-title font-medium">Hey 👋, I'm Pranav</h1>
           <p className="">
-            I'm a 17-year-old web developer and designer from Virginia. I like desiginig 
+            I'm a web developer and designer from Virginia. I like desiginig 
             websites with beautiful UI and building impactful EdTech for students.
             I'm currently starting my freshman year at UIUC studying <span className="font-semibold">Computer Science.</span>
           </p>
