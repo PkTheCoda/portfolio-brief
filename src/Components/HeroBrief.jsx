@@ -21,20 +21,20 @@ const HeroBrief = () => {
         <div className="flex flex-col gap-y-1">
           <h1 className="four-title font-medium">Hey 👋, I'm Pranav</h1>
           <p className="">
-            I'm a web developer and designer from Virginia. I like desiginig 
+            I'm a web developer and designer from Virginia. I like designing 
             websites with beautiful UI and building impactful EdTech for students.
             I'm currently starting my freshman year at UIUC studying <span className="font-semibold">Computer Science.</span>
           </p>
         </div>
 
         <div className="flex flex-col gap-y-2">
-          <h1 className="four-title font-medium">What I'm doing:</h1>
+          <h1 className="four-title font-medium">What I'm doing/did:</h1>
 
           <div className="space-y-4">
 
             <div className="space-y-2">
               <h4>
-                Working as a paid Software Engineering Intern @ {" "}
+                Worked @ {" "}
                 <a
                   href="https://www.ycombinator.com/companies/ultra-2"
                   className="highlight"
@@ -42,13 +42,15 @@ const HeroBrief = () => {
                 >
                   Ultra
                 </a>
+                {' '}as a Software Engineering Intern
               </h4>
               <ul className="list-disc pl-10">
                 <li>
-                  Ultra is a Y-Combinator backed startup serving as the ultimate career coach for high-achieving high school students.
+                  Ultra is a Y-Combinator (YC W24) backed startup serving as the ultimate career coach for high-achieving high school students.
                 </li>
                 <li>
-                  I'm working on shipping, implementing, and refactoring different features for their platform.
+                  I specifically helped design from the ground up landing pages for features and programs (homepage, fellowships, college evaluation)
+                  and helped build/refactor existing features (roadmap, opportunities, etc.)
                 </li>
               </ul>
             </div>
