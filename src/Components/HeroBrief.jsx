@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 const HeroBrief = () => {
   return (
     <div className="bg-[#f8e1bf] h-max px-6 sm:px-20 pt-20 text-[#694023] font-outfit flex items-center justify-center">
-      <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center px-2">
+      {/* <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center px-2">
         This is a <i>brief</i> version of my portfolio, find more about my work
         on{" "}
         <a
@@ -15,7 +15,7 @@ const HeroBrief = () => {
           my main portfolio
         </a>
         .
-      </div>
+      </div> */}
 
       <div className="flex flex-col gap-y-6 max-w-[40rem] text-lg">
         <div className="flex flex-col gap-y-1">
