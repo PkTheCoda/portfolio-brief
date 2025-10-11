@@ -1,9 +1,53 @@
-import React from "react";
-import { BsGithub } from "react-icons/bs";
+import React, {useState} from "react";
+import { BsGithub, BsLinkedin, BsEnvelope, BsCalendarCheck } from "react-icons/bs";
+import { FaEnvelope } from "react-icons/fa";
+import { FaCalendarDays, FaCircle } from "react-icons/fa6";
 
 const HeroBrief = () => {
+
+  const themeData = {
+    'brown': {
+      text: "#4e2f18",
+      background: "#f4e2c6",
+      icons: "#4e2f18",
+      highlightBackground: "#694023",
+      highlightText: "#efdec6",
+      border: "#b0956e"
+    },
+    'darkBlue': {
+      text: "#172554",
+      background: "#eff6ff",
+      icons: "#172554",
+      highlightBackground: "#172554",
+      highlightText: "#f5f5f4",
+      border: "#93c5fd"
+    },
+    'darkMode': {
+      text: "#e2e8f0",
+      background: "#0f0f0f",
+      icons: "#0f0f0f",
+      highlightBackground: "#e2e8f0",
+      highlightText: "#0f0f0f",
+      border: "#334155"
+    },
+    'white': {
+      text: "#000000",
+      background: "#ffffff",
+      icons: "#000000",
+      highlightBackground: "#000000",
+      highlightText: "#ffffff",
+      border: "#e2e8f0"
+    }
+  }
+
+  const [currentTheme, setCurrentTheme] = useState("brown")
+
+  
   return (
-    <div className="bg-[#f4e2c6] h-max px-6 sm:px-20 pt-10 text-[#694023] font-outfit flex items-center justify-center">
+    <div 
+      className={`h-max px-6 sm:px-20 pt-10 font-outfit flex items-center justify-center`}
+      style={{backgroundColor: themeData[currentTheme].background, color: themeData[currentTheme].text}}
+    >
       {/* <div className="absolute py-2 top-0 bg-[#794a29] w-full text-white text-center px-2">
         This is a <i>brief</i> version of my portfolio, find more about my work
         on{" "}
@@ -21,10 +65,9 @@ const HeroBrief = () => {
         <div className="flex flex-col gap-y-1">
           <h1 className="four-title font-medium">Hey! I'm Pranav</h1>
           <p className="">
-            I'm a web developer and designer from Virginia. I like designing
-            websites with beautiful UI and building impactful EdTech for
-            students. I'm currently a freshman studying @ UIUC studying{" "}
-            <span className="font-semibold">Computer Science.</span>
+            I'm an 18 y/o developer and designer from Richmond, Virginia. I love creating 
+            beautiful interfaces and user-facing tech. Currently a freshman studying {' '}
+            <span className="font-semibold">Computer Science</span> @ UIUC!
           </p>
         </div>
 
@@ -38,22 +81,17 @@ const HeroBrief = () => {
                 <a
                   href="https://www.ycombinator.com/companies/ultra-2"
                   className="highlight"
+                  style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                   target="_blank"
                 >
-                  Ultra
+                  Ultra (YC W24)
                 </a>{" "}
                 as a Software Engineering Intern
               </h4>
               <ul className="list-disc pl-10">
                 <li>
-                  Ultra is a Y-Combinator (YC W24) backed startup serving as the
-                  ultimate career coach for high-achieving high school students.
-                </li>
-                <li>
-                  I specifically helped design from the ground up landing pages
-                  for features and programs (homepage, fellowships, college
-                  evaluation) and helped build/refactor existing features
-                  (roadmap, opportunities, etc.)
+                  Helped fully design + develop features/pages like the landing page, career simulation and redesign critical features like 
+                  the college simulation platform, roadmap, etc.
                 </li>
               </ul>
             </div>
@@ -64,24 +102,26 @@ const HeroBrief = () => {
                 <a
                   href="https://thryvedesign.com"
                   className="highlight"
+                  style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                   target="_blank"
                 >
                   ThryveDesign
                 </a>
-                , my web develompent agency.
+                , my freelance web develompent agency.
               </h4>
               <ul className="list-disc pl-10">
                 <li>
                   I've worked with over 25 businesses/nonprofits around the
                   world.
                 </li>
-                <li>Generated low 5-figure revenue within a year</li>
+                <li>Generated low 5-figure (20k~) revenue within a year</li>
                 <li>
                   Here is some of my agency's{" "}
                   <a
                     href="https://thryvedesign.com/showcase"
                     target="_blank"
                     className="highlight"
+                    style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                   >
                     work and sample designs.
                   </a>
@@ -99,6 +139,7 @@ const HeroBrief = () => {
                 <a
                   href="https://talem.org"
                   className="highlight"
+                  style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                   target="_blank"
                 >
                   talem
@@ -131,6 +172,7 @@ const HeroBrief = () => {
                     <a
                       href="https://desourcedesign.vercel.app/"
                       className="highlight"
+                      style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                       target="_blank"
                     >
                       desource
@@ -143,6 +185,7 @@ const HeroBrief = () => {
                       href="https://ecoeats.us"
                       target="_blank"
                       className="highlight"
+                      style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                     >
                       sustainable food app
                     </a>{" "}
@@ -151,6 +194,7 @@ const HeroBrief = () => {
                       href="https://www.youtube.com/watch?v=ZjpzYi6aBa8"
                       target="_blank"
                       className="highlight"
+                      style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                     >
                       AI-language learning app
                     </a>
@@ -159,6 +203,7 @@ const HeroBrief = () => {
                       href="https://www.linkedin.com/posts/pranav-konjeti_easyaps-ai-can-now-grade-your-frq-response-activity-7220802778858696704-3VPA?utm_source=share&utm_medium=member_desktop"
                       target="_blank"
                       className="highlight"
+                      style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                     >
                       AP exam prep
                     </a>
@@ -179,6 +224,7 @@ const HeroBrief = () => {
                     href="https://schoolhouse.world/u/pranav"
                     target="_blank"
                     className="highlight"
+                    style={{backgroundColor: themeData[currentTheme].highlightBackground, color: themeData[currentTheme].highlightText, borderColor: themeData[currentTheme].border}}
                   >
                     My Portfolio
                   </a>
@@ -191,40 +237,81 @@ const HeroBrief = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-y-1">
+        <div className="flex flex-col gap-y-1 mb-4">
           <h1 className="three-title font-medium">Interests</h1>
           <p>Tech, Startups, Education, AI, UI/UX Design</p>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-y-4 bg-[#794a29] shadow-md px-4 py-8 rounded-t-xl">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        {/* Edit Theme */}
+        {/* <div className="flex flex-col items-center justify-center gap-y-4 bg-white shadow-md p-2 rounded-lg m-4 w-max fixed top-0 right-0">
+
+          <div className="flex flex-col gap-2">
+            <button
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-2 rounded-md"
+              onClick={() => setCurrentTheme("brown")}
+            >
+              <FaCircle className="text-2xl text-[#4e2f18]" />
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <button
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-2 rounded-md"
+              onClick={() => setCurrentTheme("darkBlue")}
+            >
+              <FaCircle className="text-2xl text-[#4a77b5]" />
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <button
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-2 rounded-md"
+              onClick={() => setCurrentTheme("darkMode")}
+            >
+              <FaCircle className="text-2xl text-[#18181B]" />
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <button
+              className="flex items-center justify-center font-semibold hover:bg-black duration-300 p-2 rounded-md"
+              onClick={() => setCurrentTheme("white")}
+            >
+              <FaCircle className="text-2xl text-slate-100" />
+            </button>
+          </div>
+        </div> */}
+
+        {/* Important Links */}
+        <div className="flex flex-col items-center justify-center gap-y-4 bg-white shadow-md p-2 rounded-lg m-4 w-max fixed bottom-0 right-0">
+          <div className="flex flex-col gap-2" style={{color: themeData[currentTheme].icons}}>
             <a
               href="https://www.linkedin.com/in/pranav-konjeti/"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-3 rounded-md"
               target="_blank"
             >
-              LinkedIn
+              <BsLinkedin className="text-xl" />
             </a>
             <a
               href="mailto:pranavkonjeti@gmail.com"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-3 rounded-md"
               target="_blank"
             >
-              Email
+              <FaEnvelope className="text-xl" />
             </a>
             <a
               href="https://github.com/PkTheCoda"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-3 rounded-md"
               target="_blank"
             >
-              GitHub
+              <BsGithub className="text-xl" />
             </a>
             <a
               href="https://cal.com/pranavkonjeti/15min"
-              className="flex items-center justify-center font-semibold bg-[#ebcfa8] px-3 py-px rounded-md"
+              className="flex items-center justify-center font-semibold hover:bg-slate-100 duration-300 p-3 rounded-md"
               target="_blank"
             >
-              Book a Call
+              <FaCalendarDays className="text-xl" />
             </a>
           </div>
         </div>
