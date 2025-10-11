@@ -61,6 +61,6 @@
   }
 
   .highlight {
-    @apply underline font-semibold bg-[#ebcfa8] px-1 py-px rounded-md
+    @apply border-b-2 border-[#b0956e] text-[#ebd4b3] hover:border-0 transition transform duration-300 font-semibold bg-[#694023] px-2 py-px rounded-md
   }
 }
